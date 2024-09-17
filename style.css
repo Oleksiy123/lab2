@@ -1,0 +1,62 @@
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    border-radius: 15px;
+    border: 2px solid black; /* Чорний контур для контейнера */
+}
+
+.circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid black; /* Чорний контур для кіл */
+}
+
+.top {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.bottom {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.right {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.horizontal-line {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 40%;
+    height: 6px;
+    background-color: black;
+    transform: translateY(-50%);
+}
+
+.vertical-line {
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    height: 45%;
+    width: 6px;
+    background-color: black;
+    transform: translateX(-50%);
+}

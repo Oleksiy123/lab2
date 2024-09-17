@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Габрись Олексій ІС-23 лаб.2 вар. 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <style>
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        /* Стиль для 1-го і 2-го рядка */
+        tr:first-child {
+            background-color: #078f8f;
+            color: #D2E3BD;
+        }
+        tr:nth-child(2) {
+            background-color: #f5f507; 
+            color: #E6004F; 
+        }
+
+        /* Ефект при наведенні на 1-й та 2-й рядок */
+        tr:first-child:hover {
+            background-color: #f5f507; 
+            color: #E6004F; 
+        }
+        tr:nth-child(2):hover {
+            background-color: #078f8f; 
+            color: #D2E3BD; 
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td colspan="2" rowspan="2">Габрись</td>
+        <td>Олексій</td>
+        <td>Сергійович</td>
+    </tr>
+    <tr>
+        <td>ІС-23 лаб. 2</td>
+        <td>Варіант 7</td>
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <td></td>
+        <td rowspan="2"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td colspan="2"></td>
+    </tr>
+</table>
+
+    <div class="container">
+        <div class="circle top"></div>
+        <div class="circle left"></div>
+        <div class="circle bottom"></div>
+        <div class="circle right"></div>
+        <div class="horizontal-line"></div>
+        <div class="vertical-line"></div>
+    </div>
+
+</body>
+</html>
